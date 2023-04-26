@@ -16,6 +16,7 @@ RUN pip3 install unicorn
 RUN pip3 install keystone-engine
 RUN pip3 install ROPgadget
 RUN pip3 install capstone
+RUN pip3 install angr
 RUN python3 -m pip install --upgrade pwntools
 
 RUN apt-get install libcapstone-dev -y
